@@ -35,10 +35,10 @@ pip install -r requirements.txt
 - Run the code with mentioned command below.
 ```
 #if you want to change source file
-python detect_and_blur.py --weights yolov7.pt --source "your video.mp4"
+python detect_and_crop.py --weights yolov7.pt --source "your video.mp4"
 
 #for specific class (person)
-python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0
+python detect_and_crop.py --weights yolov7.pt --source "your video.mp4" -classes 0
 ```
 - Cropped Objects will be stored in "working-dir/crop" folder.
 
