@@ -11,11 +11,11 @@ cd yolov7-object-cropping
 ```
 - Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
 ```
-### For Linux Users
+# For Linux Users
 python3 -m venv yolov7objcropping
 source yolov7objcropping/bin/activate
 
-### For Window Users
+# For Window Users
 python3 -m venv yolov7objcropping
 cd yolov7objcropping
 cd Scripts
@@ -34,10 +34,10 @@ pip install -r requirements.txt
 - Download [yolov7](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) object detection weights from link and move them to the working directory {yolov7-object-cropping}
 - Run the code with mentioned command below.
 ```
-#if you want to change source file
+# Change source file
 python detect_and_crop.py --weights yolov7.pt --source "your video.mp4"
 
-#for specific class (person)
+# For specific class (person)
 python detect_and_crop.py --weights yolov7.pt --source "your video.mp4" -classes 0
 ```
 - Cropped Objects will be stored in "working-dir/crop" folder.
@@ -75,4 +75,4 @@ python detect_and_crop.py --weights yolov7.pt --source "your video.mp4" -classes
 - https://medium.com/augmented-startups/train-yolor-on-custom-data-f129391bd3d6
 - https://medium.com/augmented-startups/develop-an-analytics-dashboard-using-streamlit-e6282fa5e0f
 
-For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
+For more details, you can reach out to me on [Medium](https://muhammadrizwanmunawar.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
