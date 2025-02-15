@@ -1,4 +1,5 @@
-#Object Crop Using YOLOv7
+# Object Cropping Using YOLOv7 (Object Detection + OpenCV)
+
 import argparse
 import time
 from pathlib import Path
